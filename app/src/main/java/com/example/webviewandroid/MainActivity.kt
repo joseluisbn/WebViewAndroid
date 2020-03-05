@@ -2,9 +2,7 @@ package com.example.webviewandroid
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.webkit.WebChromeClient
-import android.webkit.WebSettings
-import android.webkit.WebViewClient
+import android.webkit.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -24,14 +22,9 @@ class MainActivity : AppCompatActivity() {
 
         // WebView Insertion
 
-        WebView.webViewClient = object : WebViewClient() {
-
-        }
-
         WebView.webChromeClient = object  : WebChromeClient (){
 
         }
-
 
         //Loading URL to WebView
 
@@ -47,5 +40,6 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+
 
     }
