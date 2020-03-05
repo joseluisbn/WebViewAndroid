@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
 
     // Declaring constant to define URL
 
-    private val BASE_URL = "https://baseavalancha.com"
+    private val BASE_URL = "https://baseavalancha.com/"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,6 +21,10 @@ class MainActivity : AppCompatActivity() {
         settings.javaScriptEnabled = true
 
         // WebView Insertion
+
+        WebView.webViewClient = object : WebViewClient() {
+
+            }
 
         WebView.webChromeClient = object  : WebChromeClient (){
 
