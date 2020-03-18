@@ -10,4 +10,4 @@ To change URL shown in the app, simply open MainActivity.kt file:
 
  *WebViewAndroid/app/src/main/java/com/example/webviewandroid/MainActivity.kt*
  
- Then, change the value of constant *BASE_URL* (line 12).
+ Finally, change the value of constant *BASE_URL* (line 12).
