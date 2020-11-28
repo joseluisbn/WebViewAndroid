@@ -1,6 +1,6 @@
 # WebViewAndroid
 
-Simple Webview written in Kotlin and developed in Android Studio.
+Simple Webview coded in Kotlin and developed in Android Studio.
 
 ## Developer notes
 
