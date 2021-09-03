@@ -7,7 +7,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    // Declaring constant to define URL
+    // Adding URL value
 
     private val BASE_URL = "https://baseavalancha.com/"
 
